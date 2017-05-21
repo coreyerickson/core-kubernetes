@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+
+  roles:
+    - common
+    - firewall
+
+- include: cluster-master.yml
+- include: cluster-nodes.yml
