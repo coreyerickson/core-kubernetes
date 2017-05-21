@@ -1,6 +1,7 @@
 .vagrant/
 *.retry
 contrib/
+hosts
 
 # swap
 [._]*.s[a-v][a-z]
